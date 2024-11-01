@@ -25,23 +25,19 @@ function Home() {
           <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1">
             <span className="text-xl">Welcome In My Feed</span>
             <div className="flex space-x-1 text-2xl md:text-4xl">
-              <h1>Hello, I'm a</h1>
+              <h1>Hello, I'm </h1>
               {/* <span >Developer</span> */}
               <ReactTyped
                 className="text-red-700 font-bold"
-                strings={["Developer", "Programmer", "Coder"]}
+                strings={["Hassan" , "a Developer", "a Programmer", "a Coder"]}
                 typeSpeed={40}
                 backSpeed={50}
                 loop={true}
               />
             </div>
             <br />
-            <p className="text-sm md:text-md text-justify">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Quisquam, recusandae consequatur. Accusamus sint libero eligendi
-              laborum fuga repudiandae? Asperiores tempore eos animi dolores
-              corrupti! Sint quos, mollitia architecto aliquam nesciunt, optio
-              cum delectus sit voluptatum aut ratione quaerat veniam aperiam!
+            <p className="font-medium-light text-sm md:text-md text-justify">
+            Hi, I'm Hassan – a web developer and tech enthusiast currently studying IT at Delhi Technological University. I specialize in web development using the MERN stack and Spring Framework, with hands-on experience in creating impactful projects like a Blood Bank Management System, an E-Commerce platform, and a Women’s Safety app that leverages AI for real-world safety features. My goal is to combine clean, efficient code with user-centered design to solve meaningful problems.
             </p>
             <br />
             {/* social media icons */}
@@ -50,20 +46,16 @@ function Home() {
                 <h1 className="font-bold text-center ">Available on</h1>
                 <ul className="flex space-x-5">
                   <li>
-                    <a href="https://www.facebook.com/" target="_blank">
+                    <a href="https://www.facebook.com/hassan.shamsi.505/" target="_blank">
                       <FaSquareFacebook className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
+                    <a href="https://www.linkedin.com/in/mohd-hassan-89617629b/" target="_blank">
                       <FaLinkedin className="text-2xl cursor-pointer" />
                     </a>
                   </li>
-                  <li>
-                    <a href="https://www.youtube.com/" target="_blank">
-                      <IoLogoYoutube className="text-2xl cursor-pointer" />
-                    </a>
-                  </li>
+                  
                   <li>
                     <a href="https://t.me/" target="_blank">
                       <FaTelegram className="text-2xl cursor-pointer" />

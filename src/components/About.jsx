@@ -6,66 +6,77 @@ function About() {
       name="About"
       className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20"
     >
-      <div>
-        <h1 className="text-3xl font-bold mb-5">About</h1>
-        <p>
-          Hello, I'm Akhil, a passionate Web developer with a keen eye for MERN
-          Stack . With a background in IT, I strive to create impactful and
-          visually stunning Software solutions that leave a lasting impression.
-        </p>
-        <br />
-        <h1 className="text-green-600 font-semibold text-xl">
-          Education & Training
-        </h1>
-        <span>
-          [Degree/Certification], [Institution], [Year] [Degree/Certification],
-          [Institution], [Year] [Relevant Course], [Platform/Institution],
-          [Year]
-        </span>
-        <br />
-        <br />
-        <h1 className="text-green-600 font-semibold text-xl">
-          Skills & Expertise
-        </h1>
-        <span>
-          Proficient in [Programming Languages] Experienced with [Software
-          Tools/Technologies] Strong grasp of [Design Principles/Concepts]
-          Excellent problem-solving skills Effective communicator and
-          collaborator
-        </span>
-        <br />
-        <br />
-        <h1 className="text-green-600 font-semibold text-xl">
-          Professional Experience
-        </h1>
-        <span>
-          [Job Title], [Company/Organization], [Dates] [Brief description of
-          responsibilities and achievements] [Job Title],
-          [Company/Organization], [Dates] [Brief description of responsibilities
-          and achievements] [Freelance/Contract Work], [Client/Organization],
-          [Dates] [Brief description of projects and contributions]
-        </span>
-        <br />
-        <br />
-        <h1 className="text-green-600 font-semibold text-xl">
-          Achievements & Awards
-        </h1>
-        <span>
-          [Award/Recognition], [Organization/Institution], [Year] [Achievement],
-          [Organization/Platform], [Year]
-        </span>
-        <br />
-        <br />
-        <h1 className="text-green-600 font-semibold text-xl">
-          Mission Statement
-        </h1>
-        <p>
-          My mission is to leverage my skills and creativity to deliver
-          innovative [Your Field] solutions that exceed client expectations and
-          contribute positively to the digital landscape. I am committed to
-          continuous learning and growth, always seeking new challenges and
-          opportunities to expand my horizons.
-        </p>
+      <h1 className="text-4xl font-extrabold mb-10 text-gray-800 tracking-wide">
+        About Me
+      </h1>
+      <p className="text-lg leading-relaxed mb-10 text-gray-700">
+        Hi, I'm Hassan – a web developer and tech enthusiast currently studying IT at Delhi Technological University. I specialize in web development using the MERN stack and Spring Framework, with hands-on experience in creating impactful projects like a Blood Bank Management System, an E-Commerce platform, and a Women’s Safety app that leverages AI for real-world safety features. My goal is to combine clean, efficient code with user-centered design to solve meaningful problems.
+      </p>
+
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        {/* Box 1: Education & Training */}
+        <div className="box p-6 border border-gray-200 rounded-lg shadow-lg bg-white">
+          <h2 className="text-green-700 font-semibold text-2xl mb-4">
+            Education & Training
+          </h2>
+          <p className="text-gray-600 text-md">
+            B.Tech in Information Technology <br />
+            Delhi Technological University (DTU) <br />
+            Expected Graduation: 2027
+          </p>
+        </div>
+
+        {/* Box 2: Skills & Expertise */}
+        <div className="box p-6 border border-gray-200 rounded-lg shadow-lg bg-white">
+          <h2 className="text-green-700 font-semibold text-2xl mb-4">
+            Skills & Expertise
+          </h2>
+          <p className="text-gray-600 text-md">
+            Proficient in MERN Stack <br />
+            Strong foundation in Data Structures and Algorithms (DSA)
+          </p>
+        </div>
+
+        {/* Box 3: Professional Experience */}
+        <div className="box p-6 border border-gray-200 rounded-lg shadow-lg bg-white">
+          <h2 className="text-green-700 font-semibold text-2xl mb-4">
+            Professional Experience
+          </h2>
+          <p className="text-gray-600 text-md">
+            Junior Web Developer Intern <br />
+            Physics Wallah (PW) <br />
+            Working on a learning project to build a website
+          </p>
+        </div>
+      </div>
+
+      {/* Centered second row */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 justify-center mt-6">
+        {/* Box 4: Achievements & Awards */}
+        <div className="box p-6 border border-gray-200 rounded-lg shadow-lg bg-white">
+          <h2 className="text-green-700 font-semibold text-2xl mb-4">
+            Achievements & Awards
+          </h2>
+          <p className="text-gray-600 text-md">
+            Codeforces Rating: Pupil (1220) <br />
+            Solved 400+ questions on LeetCode <br />
+            Qualified JEE Advanced, scoring in the top 1% nationwide
+          </p>
+        </div>
+
+        {/* Box 5: Mission Statement */}
+        <div className="box p-6 border border-gray-200 rounded-lg shadow-lg bg-white">
+          <h2 className="text-green-700 font-semibold text-2xl mb-4">
+            Mission Statement
+          </h2>
+          <p className="text-gray-600 text-md">
+            My mission is to leverage my skills and creativity to deliver
+            innovative solutions that exceed client expectations and contribute
+            positively to the digital landscape. I am committed to continuous
+            learning and growth, always seeking new challenges and opportunities
+            to expand my horizons.
+          </p>
+        </div>
       </div>
     </div>
   );

@@ -46,13 +46,13 @@ function Experiance() {
   ];
   return (
     <div
-      name="Experiance"
+      name="Experience"
       className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16"
     >
       <div>
-        <h1 className="text-3xl font-bold mb-5">Experiance</h1>
+        <h1 className="text-3xl font-bold mb-5">Experience</h1>
         <p className="  ">
-          I've more than 2 years of experiance in below technologies.
+          I'm gaining hands on experience on the following technologies
         </p>
         <div className="grid grid-cols-2 md:grid-cols-5 gap-7 my-3">
           {cardItem.map(({ id, logo, name }) => (
