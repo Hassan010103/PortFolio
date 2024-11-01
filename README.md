@@ -2,7 +2,7 @@
 
 A responsive and modern portfolio website built with **React** and **Tailwind CSS** to showcase my projects, skills, and experiences.
 
-**[View the live site here!](https://your-deployed-site-link.com)**
+**[View the live site here!](https://hassan010103.netlify.app)**
 
 ## Table of Contents
 - [About the Project](#about-the-project)
@@ -30,14 +30,3 @@ This portfolio is designed to provide a comprehensive overview of my professiona
 - **Tailwind CSS**: For efficient and responsive styling.
 - **JavaScript (ES6+)**: For dynamic interactions.
 - **HTML5 & CSS3**: Standard web structure and design.
-
-## Getting Started
-To get a local copy up and running, follow these simple steps.
-
-### Prerequisites
-Make sure you have **Node.js** and **npm** installed.
-
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/your-portfolio-repo.git
