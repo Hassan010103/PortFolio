@@ -21,8 +21,8 @@ function About() {
           </h2>
           <p className="text-gray-600 dark:text-gray-300 text-md">
             <b>B.Tech in IT</b>, Delhi Technological University (2023–2027), CGPA: 9.688<br/>
-            <b>Class XII (CBSE)</b>, Dev Samaj Modern School, Delhi (2022), 95.8%<br/>
-            <b>Class X (CBSE)</b>, Dev Samaj Modern School, Delhi (2020), 95.6%<br/>
+            <b>Class XII (CBSE)</b>, Dev Samaj Modern School, Delhi , 95.8%<br/>
+            <b>Class X (CBSE)</b>, Dev Samaj Modern School, Delhi , 95.6%<br/>
           </p>
         </div>
 
@@ -63,10 +63,11 @@ function About() {
             Achievements & Leadership
           </h2>
           <p className="text-gray-600 dark:text-gray-300 text-md">
-            <ul className="list-disc ml-5">
-              <li><a href="https://leetcode.com/u/Hassan_010103/" className="text-blue-700 dark:text-blue-400 underline"><b>LeetCode</b></a>: 650+ problems solved (Rating: 1782), Top 8% in weekly contests.</li>
-              <li><a href="https://codeforces.com/profile/Hassan_010103" className="text-blue-700 dark:text-blue-400 underline"><b>Codeforces</b></a>: Pupil - Max Rating 1345.</li>
-              <li><a href="https://www.codechef.com/users/hassan_02" className="text-blue-700 dark:text-blue-400 underline"><b>CodeChef</b></a>: 3-star rating of 1636.</li>
+            <ul className="list-disc ml-5 space-y-2">
+              <li><span className="font-bold">Semi-finalist at Amazon HackOn Season 5 (2025)</span> (Top 100 out of 52,000+ participants)</li>
+              <li><b>LeetCode</b>: 650+ problems solved (Rating: 1782), Top 8% in weekly contests.</li>
+              <li><b>Codeforces</b>: Pupil - Max Rating 1345.</li>
+              <li><b>CodeChef</b>: 2 Star (Max Rating 1469).</li>
               <li>Qualified <b>JEE Advanced (AIR 11,800)</b>.</li>
               <li>Ranked in top 800 teams in IEEE Xtreme 18.0 out of 19,000+ teams.</li>
               <li><b>Co-Head</b>, DTU Tech Fest Invictus 2024 (15 events, 500+ participants).</li>
