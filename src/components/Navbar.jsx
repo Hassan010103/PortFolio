@@ -1,10 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import pic from "../../public/photo.avif";
 import { AiOutlineMenu } from "react-icons/ai";
 import { IoCloseSharp } from "react-icons/io5";
 import { Link } from "react-scroll";
+import { FaMoon, FaSun } from "react-icons/fa";
+
 function Navbar() {
   const [menu, setMenu] = useState(false);
+  const [dark, setDark] = useState(false);
+
   const navItems = [
     {
       id: 1,
@@ -27,23 +31,34 @@ function Navbar() {
       text: "Contact",
     },
   ];
+
+  useEffect(() => {
+    if (dark) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }, [dark]);
+
   return (
     <>
-      <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 h-16 shadow-md fixed top-0 left-0 right-0 z-50 bg-white">
+      <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 h-16 fixed top-0 left-0 right-0 z-50 bg-white/60 dark:bg-gray-900/60 backdrop-blur-md border-b border-gray-200 dark:border-gray-700/60 shadow-lg font-sans transition-colors duration-300">
         <div className="flex justify-between items-center h-16">
-          <div className=" flex space-x-2">
-            <img src={pic} className="h-12 w-12 rounded-full" alt="" />
-            <h1 className="font-semibold text-xl cursor-pointer">
-              Hassa<span className="text-green-500 text-2xl">N</span>
-              <p className="text-sm">Web Developer</p>
-            </h1>
+          <div className="flex items-center space-x-3 bg-white/80 dark:bg-gray-800/80 rounded-xl px-3 py-1 shadow">
+            <img src={pic} className="h-12 w-12 rounded-full border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900" alt="" />
+            <div className="flex flex-col">
+              <span className="font-semibold text-xl cursor-pointer text-gray-900 dark:text-gray-100 leading-tight">
+                Hassa<span className="text-green-500 dark:text-green-300 text-2xl">N</span>
+              </span>
+              <span className="text-xs text-gray-700 dark:text-gray-300">Web Developer</span>
+            </div>
           </div>
           {/* desktop navbar */}
           <div>
-            <ul className="hidden md:flex space-x-8">
+            <ul className="hidden md:flex space-x-14">
               {navItems.map(({ id, text }) => (
                 <li
-                  className="hover:scale-105 duration-200 cursor-pointer"
+                  className="hover:scale-105 duration-200 cursor-pointer text-gray-900 dark:text-gray-100 hover:underline hover:text-green-500 dark:hover:text-green-300 font-medium tracking-wide text-lg px-2"
                   key={id}
                 >
                   <Link
@@ -58,18 +73,25 @@ function Navbar() {
                 </li>
               ))}
             </ul>
-            <div onClick={() => setMenu(!menu)} className="md:hidden">
+            <div onClick={() => setMenu(!menu)} className="md:hidden text-gray-900 dark:text-gray-100">
               {menu ? <IoCloseSharp size={24} /> : <AiOutlineMenu size={24} />}
             </div>
           </div>
+          <button
+            onClick={() => setDark((d) => !d)}
+            className="ml-4 p-2 rounded-full border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-800 dark:text-yellow-300 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-300"
+            aria-label="Toggle dark mode"
+          >
+            {dark ? <FaSun /> : <FaMoon />}
+          </button>
         </div>
         {/* mobile navbar */}
         {menu && (
-          <div className="bg-white">
+          <div className="bg-white dark:bg-gray-900">
             <ul className="md:hidden flex flex-col h-screen items-center justify-center space-y-3 text-xl">
               {navItems.map(({ id, text }) => (
                 <li
-                  className="hover:scale-105 duration-200 font-semibold cursor-pointer"
+                  className="hover:scale-105 duration-200 font-medium tracking-wide text-lg cursor-pointer text-gray-900 dark:text-gray-100 hover:underline hover:text-green-500 dark:hover:text-green-300 px-2"
                   key={id}
                 >
                   <Link

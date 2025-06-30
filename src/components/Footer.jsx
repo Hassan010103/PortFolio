@@ -8,23 +8,10 @@ import {
 function Footer() {
   return (
     <>
-      <hr />
-      <footer className="py-12">
-        <div className="max-w-screen-2xl container mx-auto px-4 md:px-20">
-          <div className=" flex flex-col items-center justify-center">
-            <div className="flex space-x-4">
-              <FaFacebook size={24} />
-              <FaTwitter size={24} />
-              <FaInstagram size={24} />
-              <FaLinkedinIn size={24} />
-            </div>
-            <div className="mt-8 border-t border-gray-700 pt-8 flex flex-col items-center">
-              <p className="text-sm">
-                &copy; 2024 Some day my company. All rights reserved.
-              </p>
-              <p className="text-sm">Supportive Partner ❤️ Me and only me </p>
-            </div>
-          </div>
+      <footer className="py-10 bg-transparent">
+        <div className="flex flex-col items-center justify-center">
+          <h2 className="text-2xl md:text-3xl font-extrabold tracking-wide text-green-700 dark:text-green-300 mb-2">Hassan's Portfolio</h2>
+          <p className="text-sm text-gray-500 dark:text-gray-400">&copy; {new Date().getFullYear()} Hassan</p>
         </div>
       </footer>
     </>

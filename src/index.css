@@ -5,4 +5,64 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  @apply bg-white text-gray-900 transition-colors duration-300;
+}
+.dark body {
+  @apply bg-gray-900 text-gray-100;
+}
+
+/* Enhanced Glow/Glitter Border Effect */
+.glitter-border {
+  position: relative;
+  z-index: 1;
+}
+.glitter-border::before {
+  content: '';
+  position: absolute;
+  inset: -8px;
+  z-index: -1;
+  border-radius: inherit;
+  background: conic-gradient(from 0deg, #00ffe7, #8f00ff, #00ffe7 80%);
+  background-size: 200% 200%;
+  animation: glitter 2.5s linear infinite;
+  filter: blur(12px) brightness(1.3) saturate(1.5);
+  opacity: 0.7;
+  pointer-events: none;
+}
+@keyframes glitter {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.dark .glitter-border::before {
+  background: conic-gradient(from 0deg, #00ffe7, #8f00ff, #00ffe7 80%);
+  opacity: 0.9;
+  filter: blur(16px) brightness(1.5) saturate(2);
+}
+
+.card-glow {
+  position: relative;
+  z-index: 1;
+}
+.card-glow::before {
+  content: '';
+  position: absolute;
+  inset: -6px;
+  border-radius: inherit;
+  z-index: 0;
+  pointer-events: none;
+  box-shadow: 0 0 24px 4px rgba(34, 197, 94, 0.25), 0 0 48px 8px rgba(59, 130, 246, 0.15);
+  opacity: 0.85;
+  filter: blur(2px);
+  transition: box-shadow 0.3s, opacity 0.3s;
+}
+.card-glow:hover::before {
+  box-shadow: 0 0 32px 8px rgba(34, 197, 94, 0.35), 0 0 64px 16px rgba(59, 130, 246, 0.25);
+  opacity: 1;
 }
