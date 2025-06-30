@@ -33,7 +33,7 @@ function About() {
           </h2>
           <p className="text-gray-600 dark:text-gray-300 text-md">
             <b>Programming Languages:</b> C++, Python, JavaScript, Java, Solidity, TypeScript, SQL, C#<br/>
-            <b>Frameworks:</b> React.js, Angular, Next.js, Express.js, Flask, Spring Boot, Tailwind CSS<br/>
+            <b>Frameworks:</b> React.js, Angular, Next.js, Express.js, Flask, Tailwind CSS<br/>
             <b>Tools & Platforms:</b> Node.js, MongoDB, MySQL, Docker, GitHub Actions, Figma
           </p>
         </div>
@@ -67,8 +67,8 @@ function About() {
               <li><span className="font-bold">Semi-finalist at Amazon HackOn Season 5 (2025)</span> (Top 100 out of 52,000+ participants)</li>
               <li><b>LeetCode</b>: 650+ problems solved (Rating: 1782), Top 8% in weekly contests.</li>
               <li><b>Codeforces</b>: Pupil - Max Rating 1345.</li>
-              <li><b>CodeChef</b>: 2 Star (Max Rating 1469).</li>
-              <li>Qualified <b>JEE Advanced (AIR 11,800)</b>.</li>
+              <li><b>CodeChef</b>: 3 Star (Max Rating 1636).</li>
+              <li>Qualified <b>JEE Advanced (AIR 11,000)</b>.</li>
               <li>Ranked in top 800 teams in IEEE Xtreme 18.0 out of 19,000+ teams.</li>
               <li><b>Co-Head</b>, DTU Tech Fest Invictus 2024 (15 events, 500+ participants).</li>
               <li>Led 10-member team at AMDOCS-sponsored BITS Hackathon 2024, increasing submissions by 40%.</li>
