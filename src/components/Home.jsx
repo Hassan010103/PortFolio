@@ -1,7 +1,5 @@
 import React from "react";
 
-import pic from "../../public/photo.avif";
-
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { IoLogoYoutube } from "react-icons/io";
@@ -81,7 +79,7 @@ function Home() {
           <div className="md:w-1/2 md:ml-48 md:mt-20 mt-8 order-1 flex justify-center items-center">
             <div className="card-glow rounded-full">
               <img
-                src="/public/photo.avif"
+                src="/photo.avif"
                 alt="profile"
                 className="rounded-full w-64 h-64 md:w-[450px] md:h-[450px] object-cover border-4 border-green-400 shadow-xl"
               />
