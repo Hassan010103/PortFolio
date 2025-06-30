@@ -7,7 +7,7 @@ import { FaMoon, FaSun } from "react-icons/fa";
 
 function Navbar() {
   const [menu, setMenu] = useState(false);
-  const [dark, setDark] = useState(false);
+  const [dark, setDark] = useState(() => document.documentElement.classList.contains('dark'));
 
   const navItems = [
     {
