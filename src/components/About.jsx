@@ -10,7 +10,7 @@ function About() {
         <span className="dark:text-gray-100">About Me</span>
       </h1>
       <p className="text-lg leading-relaxed mb-10 text-gray-700 dark:text-gray-200">
-        Hi, I'm Mohd Hassan – a web developer and tech enthusiast currently studying B.Tech in IT (DR 2, IT Department) at Delhi Technological University (2023–2027). I specialize in web development (React.js, Node.js, MongoDB, Express.js, Spring Boot), and have built impactful projects like a Real-Time Bidding System, Blockchain Voting DApp, and a Blood Bank Management System. My goal is to combine clean, efficient code with user-centered design to solve meaningful problems.
+        Information Technology undergraduate at Delhi Technological University (2023–2027) with a CGPA of 9.688. Currently a Remote MERN Intern at Physics Wallah, contributing to Smart Health Care (scalable full-stack platform for online consultations and AI-driven wellness). Proficient in C++, Python, JavaScript, TypeScript, React.js, Node.js, and MongoDB. 650+ LeetCode problems solved (Top 8%), Amazon HackOn S5 semi-finalist, and experienced in leading and collaborating on impactful tech projects and hackathons.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -44,12 +44,11 @@ function About() {
             Internship Experience
           </h2>
           <p className="text-gray-600 dark:text-gray-300 text-md">
-            <b>Web Intern, Physics Wallah</b> (July 2024)<br/>
+            <b>Remote MERN Intern, Physics Wallah</b> (July 1, 2025–Present)<br/>
             <ul className="list-disc ml-5">
-              <li>Designed a <b>Blood Bank Management System</b> serving 100+ users using React.js, Node.js, and MongoDB.</li>
-              <li>Improved user engagement by 30% and reduced load times by 20%, handling 500+ API calls/day.</li>
-              <li>Implemented JWT-based authentication and role-based access, securing 1,000+ registered users.</li>
-              <li>Collaborated in a 3-person Agile team across 4 sprints, using Jira for backlog management.</li>
+              <li>Built <b>Smart Health Care</b>, a scalable MERN platform for online consultations, AI symptom checks, and wellness content.</li>
+              <li>Developed JWT auth, real-time booking, secure video/chat, and admin dashboards for 10,000+ users.</li>
+              <li>Integrated payments, optimized for 200–500 concurrent users, and followed best practices in TypeScript and testing.</li>
             </ul>
           </p>
         </div>

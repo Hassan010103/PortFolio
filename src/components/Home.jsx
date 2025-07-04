@@ -35,7 +35,7 @@ function Home() {
             <br />
             <p className="text-base md:text-lg leading-relaxed text-gray-700 dark:text-gray-200 font-medium mb-4">
               Hi, I'm <span className="font-bold text-green-700 dark:text-green-400">Mohd Hassan</span> – a web developer and tech enthusiast currently studying <span className="font-semibold">B.Tech in IT</span> (DR 2, IT Department) at <span className="font-semibold">Delhi Technological University (2023–2027)</span>.<br/>
-              I specialize in <span className="font-semibold">web development</span> (React.js, Node.js, MongoDB, Express.js), and have built impactful projects like a <span className="font-semibold">Real-Time Bidding System</span>, <span className="font-semibold">Blockchain Voting DApp</span>, and a <span className="font-semibold">Blood Bank Management System</span>.<br/>
+              I specialize in <span className="font-semibold">web development</span> (React.js, Node.js, MongoDB, Express.js), and have built impactful projects like a <span className="font-semibold">Real-Time Bidding System</span>, <span className="font-semibold">Blockchain Voting DApp</span>, and <span className="font-semibold">Smart Health Care</span>.<br/>
               My goal is to combine clean, efficient code with user-centered design to solve meaningful problems.
             </p>
             <div className="flex flex-col md:flex-row md:items-center md:space-x-8 space-y-2 md:space-y-0 mb-6">

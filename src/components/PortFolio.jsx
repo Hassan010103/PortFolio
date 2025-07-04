@@ -5,6 +5,16 @@ import { FaGithub } from "react-icons/fa";
 function PortFolio() {
   const cardItem = [
     {
+      id: 100,
+      logo: <img src="/public/node.png" alt="Node.js" style={{ width: 56, height: 56, borderRadius: '50%' }} />,
+      name: "Smart Health Care",
+      description: "Architected a scalable MERN application for online medical consultations and AI-driven symptom analysis. Enhanced system to accommodate 10,000+ users, 1,000+ appointments, and 200–500 concurrent API users. Implemented admin dashboard and responsive UI for seamless management of doctors and appointments.",
+      link: "https://smart-health-care-virid.vercel.app/",
+      video: "",
+      tech: "MERN Stack (MongoDB, Express.js, React.js, Node.js), TypeScript, JWT, WebRTC, Socket.io, Razorpay, Joi, Winston, Vercel",
+      github: "https://github.com/Hassan010103/Smart-Health-Care"
+    },
+    {
       id: 0,
       logo: <SiFlask color="#000000" size={90} />,
       name: "FirePulse",

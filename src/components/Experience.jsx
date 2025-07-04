@@ -20,14 +20,10 @@ function Experiance() {
     { id: 7, logo: <SiCplusplus color="#00599C" size={80} />, name: "C++", type: 'icon' },
     { id: 8, logo: <SiTypescript color="#3178C6" size={80} />, name: "TypeScript", type: 'icon' },
     { id: 9, logo: <SiSolidity color="#363636" size={80} />, name: "Solidity", type: 'icon' },
-    { id: 10, logo: <SiAngular color="#DD0031" size={80} />, name: "Angular", type: 'icon' },
     { id: 11, logo: <SiNextdotjs color="#000000" size={80} />, name: "Next.js", type: 'icon' },
     { id: 12, logo: <SiFlask color="#000000" size={80} />, name: "Flask", type: 'icon' },
     { id: 13, logo: <SiMysql color="#4479A1" size={80} />, name: "MySQL", type: 'icon' },
-    { id: 14, logo: <SiDocker color="#2496ED" size={80} />, name: "Docker", type: 'icon' },
-    { id: 15, logo: <SiGithubactions color="#2088FF" size={80} />, name: "GitHub Actions", type: 'icon' },
-    { id: 16, logo: <SiFigma color="#F24E1E" size={80} />, name: "Figma", type: 'icon' },
-  ];
+    ];
   return (
     <div
       name="Experience"
@@ -51,12 +47,13 @@ function Experiance() {
         </div>
         <div className="card-glow rounded-2xl shadow-xl border border-gray-200 dark:border-gray-700 bg-white/70 dark:bg-gray-800/60 backdrop-blur-md p-10 mt-10 mx-auto max-w-3xl transition-transform duration-300 hover:scale-[1.02] hover:shadow-2xl">
           <h2 className="text-green-700 dark:text-green-300 font-extrabold text-3xl mb-4 text-center tracking-wide">Internship Experience</h2>
-          <div className="text-gray-700 dark:text-gray-200 text-lg font-medium text-center mb-2">Web Intern, Physics Wallah <span className="text-gray-500 dark:text-gray-400 font-normal">(July 2024)</span></div>
+          <div className="text-gray-700 dark:text-gray-200 text-lg font-medium text-center mb-2">Remote MERN Intern, Physics Wallah <span className="text-gray-500 dark:text-gray-400 font-normal">(July 1, 2025–Present)</span></div>
           <ul className="list-disc list-inside space-y-3 text-base md:text-lg text-gray-700 dark:text-gray-200 mt-4 pl-2 md:pl-6 text-left">
-            <li><span className="font-semibold">Designed a <b>Blood Bank Management System</b></span> serving 100+ users using React.js, Node.js, and MongoDB.</li>
-            <li>Improved user engagement by <span className="font-semibold">30%</span> and reduced load times by <span className="font-semibold">20%</span>, handling 500+ API calls/day.</li>
-            <li>Implemented <span className="font-semibold">JWT-based authentication</span> and role-based access, securing 1,000+ registered users.</li>
-            <li>Collaborated in a <span className="font-semibold">3-person Agile team</span> across 4 sprints, using Jira for backlog management.</li>
+            <li>Contributed to <b>Smart Health Care</b>, a full-stack MERN platform designed for online consultations, wellness encyclopedia, and AI-powered symptom checking, <b>capable of supporting 200–500 concurrent API users</b>.</li>
+            <li>Implemented <b>JWT-based authentication</b>, doctor search/filter, and real-time appointment booking with conflict checking, designed to handle <b>10,000+ registered users</b> and <b>1,000+ daily appointments</b>.</li>
+            <li>Enabled secure video & chat consultations (WebRTC, Socket.io), e-prescriptions, reviews, and wellness content, supporting <b>100–200 concurrent chat/video sessions</b>.</li>
+            <li>Integrated <b>Razorpay payments</b> and designed admin CRUD for doctors, treatments, users, and appointments.</li>
+            <li>Followed best practices: <b>modular TypeScript</b>, input validation (Joi), logging (Winston), and automated testing on multiple modules.</li>
           </ul>
         </div>
       </div>
